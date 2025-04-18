@@ -10,7 +10,7 @@ include('components/head.html');
     <div class="custom-cursor__cursor-two"></div> -->
 
     <div class="page-wrapper">
-        <?php include('components/navbar.html'); ?>
+        <?php include('components/navbar.php'); ?>
 
         <!-- Slider inicio -->
         <section class="main-slider-one">

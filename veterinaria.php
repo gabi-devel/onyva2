@@ -4,13 +4,11 @@ include('components/head.html');
 /* Info de las cards en el archivo cards_data.php */ 
 include('./components/cards_data.php');
 
-$color_icon_navbar = '#0ebd66';
-$color_icon_our_products = '#fff';
-$size_our_products = "60"; 
+
 ?>
 
 <div class="page-wrapper">
-    <?php include('components/navbar.html'); ?>
+    <?php include('components/navbar.php'); ?>
     
     <!-- cards -->
     <section class="service-page service-page--one">

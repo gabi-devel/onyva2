@@ -10,7 +10,7 @@ include('components/head.html');
     <div class="page-wrapper">
         <div class="header_aver">
             <?php 
-            include('components/navbar.html'); 
+            include('components/navbar.php'); 
             ?>
 
             

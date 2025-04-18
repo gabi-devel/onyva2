@@ -1,12 +1,9 @@
 <?php
 include('components/head.html');
-$color_icon_navbar = '#0ebd66';
-$color_icon_our_products = '#fff';
-$size_our_products = "60"; 
 ?>
 
 <div class="page-wrapper">
-    <?php include('components/navbar.html'); ?>
+    <?php include('components/navbar.php'); ?>
 
     <section class="about-two">
             <div class="container">

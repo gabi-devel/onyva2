@@ -10,7 +10,7 @@ $size_our_products = "60";
 ?>
 
 <div class="page-wrapper">
-    <?php include('components/navbar.html'); ?>
+    <?php include('components/navbar.php'); ?>
     
     <!-- cards -->
     <section class="service-page service-page--one">

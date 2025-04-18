@@ -60,7 +60,7 @@ $size_our_products = "60";
                 </div><!-- /.topbar-one__inner -->
             </div><!-- /.container-fluid -->
         </div>
-        <?php /* include('components/navbar.html'); */ ?>
+        <?php /* include('components/navbar.php'); */ ?>
 
         <header class="main-header sticky-header sticky-header--normal">
             <div class="container-fluid" style="max-width:none;">
@@ -405,7 +405,7 @@ $size_our_products = "60";
                 <?php 
                 $tipo = $_GET['tipo'];
                         
-                $cards = match ($tipo) { /* Agregarlo también en el href de navbar.html  */
+                $cards = match ($tipo) { /* Agregarlo también en el href de navbar.php  */
                     'servicios' => $servicios,
                     'holiwis' => $holiwis,
                     'inmunoDeficiencias' => $inmunoDeficiencias,

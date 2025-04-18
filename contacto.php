@@ -1,12 +1,10 @@
 <?php
 include('components/head.html');
-$color_icon_navbar = '#0ebd66';
-$color_icon_our_products = '#fff';
-$size_our_products = "60"; 
 ?>
 
+
 <div class="page-wrapper">
-    <?php include('components/navbar.html'); ?>
+    <?php include('components/navbar.php'); ?>
 
     <section class="contact-one">
             <div class="container">
@@ -47,10 +45,18 @@ $size_our_products = "60";
                                 <img src="assets/images/about/veterinaria - copia.png" width="300" alt="laboix">
                             </div><!-- /.contact-one__content__thumb -->
                             <div class="contact-one__content__social">
-                                <a href="https://instagram.com"> <i class="fab fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span></a>
-                                <a href="https://facebook.com"> <i class="fab fa-facebook-f" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
-                                <a href="https://twitter.com"> <i class="fab fa-twitter" aria-hidden="true"></i> <span class="sr-only">Twitter</span> </a>
-                                <a href="https://pinterest.com"> <i class="fab fa-pinterest-p" aria-hidden="true"></i> <span class="sr-only">Pinterest</span></a>
+                                <a href="https://instagram.com"> 
+                                    <i class="bi bi-instagram"></i> <span class="sr-only">Instagram</span>
+                                </a>
+                                <a href="https://facebook.com"> 
+                                    <i class="bi bi-facebook"></i> <span class="sr-only">Facebook</span> 
+                                </a>
+                                <a href="https://twitter.com"> 
+                                    <i class="bi bi-twitter"></i> <span class="sr-only">Twitter</span> 
+                                </a>
+                                <a href="https://tiktok.com"> 
+                                    <i class="bi bi-tiktok"></i> <span class="sr-only">Tik Tok</span>
+                                </a>
                             </div>
                         </div><!-- /.contact-one__content -->
                     </div><!-- /.col-xl-7 -->
@@ -59,7 +65,7 @@ $size_our_products = "60";
                         <div class="contact-one__left">
                             <div class="contact-one__top">
                                 <div class="sec-title wow fadeInUp animated" data-wow-duration="700ms" style="visibility: visible; animation-duration: 700ms; animation-name: fadeInUp;">
-                                    <h6 class="sec-title__tagline"><img src="assets/images/shapes/sec-title-s-1.png" alt="Contact with  Us" class="sec-title__img">Contactanos</h6><!-- /.sec-title__tagline -->
+                                    <h6 class="sec-title__tagline">Contactanos<img src="assets/images/shapes/aver2-96x96.png" width="30" alt="Contact with  Us" class="sec-title__img"></h6><!-- /.sec-title__tagline -->
                                     <h3 class="sec-title__title">Complete este breve formulario y nos pondremos en contacto con Ud. a la brevedad</h3><!-- /.sec-title__title -->
                                 </div><!-- /.sec-title -->
                             </div><!-- /.contact-one__top -->
@@ -107,9 +113,9 @@ $size_our_products = "60";
         <div class="contact-map  wow fadeInUp animated" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-name: fadeInUp;">
             <div class="container-fluid">
                 <div class="google-map google-map__contact">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.26691803107695!2d-58.46265623511533!3d-34.59731605357641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5fe23a12aa3%3A0xadcdcabfc5b73867!2sONYVA%20SRL!5e0!3m2!1ses-419!2sar!4v1744999090715!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6568.532921970831!2d-58.4637191633682!3d-34.5974229724563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5fe23a12aa3%3A0xadcdcabfc5b73867!2sONYVA%20SRL!5e0!3m2!1ses-419!2sar!4v1745004243828!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div class="google-map__contact__pin">
-                        <img src="assets/images/shapes/pin.png" alt="laboix icon">
+                        <img src="assets/images/shapes/pin.png" alt="waypoint">
                     </div>
                     <div class="google-map__contact__location">
                         <p class="google-map__contact__location__text"> Dr. Adolfo Dickman 990 </p>

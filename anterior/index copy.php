@@ -69,7 +69,7 @@ include('components/head.html');
                 </div><!-- /.topbar-one__inner -->
             </div><!-- /.container-fluid -->
         </div>
-        <?php /* include('components/navbar.html'); */ ?>
+        <?php /* include('components/navbar.php'); */ ?>
 
         <header class="main-header sticky-header sticky-header--normal">
             <div class="container-fluid">
