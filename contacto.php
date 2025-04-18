@@ -100,9 +100,23 @@ $size_our_products = "60";
                     </div><!-- /.col-xl-5 -->
 
                 </div><!-- /.row -->
+                
             </div><!-- /.container -->
+            
         </section>
-
+        <div class="contact-map  wow fadeInUp animated" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-name: fadeInUp;">
+            <div class="container-fluid">
+                <div class="google-map google-map__contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.26691803107695!2d-58.46265623511533!3d-34.59731605357641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5fe23a12aa3%3A0xadcdcabfc5b73867!2sONYVA%20SRL!5e0!3m2!1ses-419!2sar!4v1744999090715!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="google-map__contact__pin">
+                        <img src="assets/images/shapes/pin.png" alt="laboix icon">
+                    </div>
+                    <div class="google-map__contact__location">
+                        <p class="google-map__contact__location__text"> Dr. Adolfo Dickman 990 </p>
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </div>
 
 
     <?php
