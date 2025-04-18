@@ -44,7 +44,7 @@ $size_our_products = "60";
                             </ul><!-- /.list-unstyled -->
 
                             <div class="contact-one__content__thumb">
-                                <img src="assets/images/shapes/hero-1-1.png" alt="laboix">
+                                <img src="assets/images/about/veterinaria - copia.png" width="300" alt="laboix">
                             </div><!-- /.contact-one__content__thumb -->
                             <div class="contact-one__content__social">
                                 <a href="https://instagram.com"> <i class="fab fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span></a>
