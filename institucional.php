@@ -19,11 +19,14 @@ include('components/head.html');
                                     <div class="about-two__items">
                                         <div class="about-two__box">
                                             <div class="about-two__box__icon">
-                                                <i class="icon-chatting"></i>
+                                                
+                                                <div class="main-header__right__icon">
+                                                     <?php include('assets/iconos/telephone-fill.php'); ?>
+                                                </div>
                                             </div>
                                             <div class="about-two__box__content">
-                                                <span class="about-two__box__subtitle">Call to anytime</span>
-                                                <a href="tel:92-3080-808" class="about-two__box__text">+92 3080 808</a>
+                                                <span class="about-two__box__subtitle">Contactenos</span>
+                                                <a href="tel:92-3080-808" class="about-two__box__text">+54 11 51466977</a>
                                             </div>
                                         </div>
                                     </div>
