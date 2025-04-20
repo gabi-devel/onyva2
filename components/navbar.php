@@ -85,11 +85,11 @@ $size_our_products = "60";
                         <li class="dropdown">
                             <a href="./otros_productos_medicos.php">Otros Productos Médicos</a>
                             <ul class="sub-menu">
-                                <li><a href="./sist_inyec_s_ag_cards.php">Sistema de Inyección sin aguja</a></li>
-                                <li><a href="#">Rayos X Portátil</a></li>
-                                <li class="dropdown"><a href="gallery.html">Oxígeno medicinal</a>
+                                <li><a href="./comfort-in.php">Sistema de Inyección sin aguja</a></li>
+                                <li><a href="./rayosxportatil.php">Rayos X Portátil</a></li>
+                                <li class="dropdown"><a href="./oxus.php">Oxígeno medicinal</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Oxus</a></li>
+                                        <li><a href="./oxus.php">Oxus</a></li>
                                     </ul>
                                 </li>
                             </ul>

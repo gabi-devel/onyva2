@@ -27,7 +27,7 @@ $sist_inyec_s_a = [
 $otros_prod_med = [
     [
         'titulo' => 'Ortopedia<br> Lyra',
-        'href' => '#',
+        'href' => 'https://www.lyraortopedia.com.ar/',
         'icono' => 'assets/iconos/prescription2.php',
         'imagen' => 'assets/images/about/binding_menudeensayos.jpg',
         'alt' => 'Artificial <br> intelligence'
@@ -48,7 +48,7 @@ $otros_prod_med = [
     ],
     [
         'titulo' => 'Oxigeno medicinal OXUS',
-        'href' => '#',
+        'href' => './oxus.php',
         'icono' => 'assets/iconos/prescription2.php',
         'imagen' => 'assets/images/about/binding_menudeensayos.jpg',
         'alt' => 'Artificial <br> intelligence'
