@@ -86,7 +86,7 @@ $size_our_products = "60";
                             <a href="./otros_productos_medicos.php">Otros Productos Médicos</a>
                             <ul class="sub-menu">
                                 <li><a href="./comfort-in.php">Sistema de Inyección sin aguja</a></li>
-                                <li><a href="./rayosxportatil.php">Rayos X Portátil</a></li>
+                                <li><a href="#">Rayos X Portátil</a></li><!-- ./rayosxportatil.php -->
                                 <li class="dropdown"><a href="./oxus.php">Oxígeno medicinal</a>
                                     <ul class="sub-menu">
                                         <li><a href="./oxus.php">Oxus</a></li>

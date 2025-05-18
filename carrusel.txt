@@ -1,0 +1,97 @@
+ <div class="client-carousel client-carousel-one ">
+        <div class="container">
+            <div class="client-carousel__one laboix-owl__carousel owl-theme owl-carousel owl-loaded owl-drag" data-owl-options="{
+        &quot;items&quot;: 5,
+        &quot;margin&quot;: 55,
+        &quot;smartSpeed&quot;: 700,
+        &quot;loop&quot;:true,
+        &quot;autoplay&quot;: 6000,
+        &quot;nav&quot;:true,
+        &quot;dots&quot;:false,
+        &quot;navText&quot;: [&quot;<span class=\&quot;fa fa-angle-left\&quot;></span>&quot;,&quot;<span class=\&quot;fa fa-angle-right\&quot;></span>&quot;],
+        &quot;responsive&quot;:{
+            &quot;0&quot;:{
+                &quot;items&quot;:1,
+                &quot;margin&quot;: 0
+            },
+            &quot;360&quot;:{
+                &quot;items&quot;:2,
+                &quot;margin&quot;: 0
+            },
+            &quot;575&quot;:{
+                &quot;items&quot;:3,
+                &quot;margin&quot;: 30
+            },
+            &quot;768&quot;:{
+                &quot;items&quot;:3,
+                &quot;margin&quot;: 40
+            },
+            &quot;992&quot;:{
+                &quot;items&quot;: 4,
+                &quot;margin&quot;: 40
+            },
+            &quot;1200&quot;:{
+                &quot;items&quot;: 5
+            }
+        }
+        }">
+                <!-- /.owl-slide-item-->
+                <!-- /.owl-slide-item-->
+                <!-- /.owl-slide-item-->
+                <!-- /.owl-slide-item-->
+                <!-- /.owl-slide-item-->
+                <!-- /.owl-slide-item-->
+                <!-- /.owl-slide-item-->
+                <div class="owl-item" style="width: 190px; margin-right: 55px;"> 
+                    <img src="assets/images/logos/Binding-Site.jpg" alt="Binding-Site">
+                </div>
+                <div class="owl-item" style="width: 190px; margin-right: 55px;">
+                    <img src="assets/images/logos/locmedt.jpg" alt="LOCMEDT">
+                </div>
+                <div class="owl-item" style="width: 190px; margin-right: 55px;">
+                    <img src="assets/images/logos/oxus.png" alt="OXUS">
+                </div>
+                <div class="owl-item" style="width: 190px; margin-right: 55px;">
+                    <img src="assets/images/logos/remedi.png" alt="Remedi">
+                </div>
+                <div class="owl-item" style="width: 190px; margin-right: 55px;">
+                    <img src="assets/images/logos/mika.png" alt="Mika">     
+                </div>
+                    
+                
+                <!-- /.owl-slide-item-->
+                <!-- /.owl-slide-item-->
+            <div class="owl-stage-outer">
+                <div class="owl-stage" style="transform: translate3d(-2205px, 0px, 0px); transition: 0.7s; width: 4900px;">
+                    <div class="owl-item cloned" style="width: 190px; margin-right: 55px;">
+                        <div class="client-carousel__one__item"> <img src="assets/images/logos/Binding-Site.jpg" alt="onyva">
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 190px; margin-right: 55px;">
+                        <div class="client-carousel__one__item"> <img src="assets/images/logos/locmedt.jpg" alt="onyva">
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 190px; margin-right: 55px;">
+                        <div class="client-carousel__one__item"><img src="assets/images/logo-onyva.png" alt="onyva">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav">
+                <button type="button" role="presentation" class="owl-prev" aria-label="carousel button">
+                    <span class="fa fa">
+                        <i class="bi bi-chevron-left"></i>
+                    </span>
+                </button>
+                <button type="button" role="presentation" class="owl-next" aria-label="carousel button">
+                    <span class="fa fa">
+                        <i class="bi bi-chevron-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="owl-dots disabled">
+
+            </div>
+        </div><!-- /.thm-owl__slider -->
+        </div><!-- /.container -->
+    </div>

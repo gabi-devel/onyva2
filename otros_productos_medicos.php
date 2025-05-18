@@ -9,15 +9,15 @@ include('./components/cards_data.php');
     <?php include('components/navbar.php'); ?>
     
     <!-- cards -->
-    <section class="service-page service-page--one">
+    <section class="service-page--one py-5">
         <div class="service-page__bg" style="background-image: url(assets/images/shapes/service-shape-1-1.png);"></div>
-        <div class="container">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-12">
                     <div class="sec-title text-center wow fadeInUp" data-wow-duration='1500ms'>
-                        <h6 class="sec-title__tagline"><img src="assets/images/shapes/sec-title-s-1.png" alt="our Service" class="sec-title__img">
-                            Otros productos med
-                        </h6>
+                        <h3 class="sec-title__title"><img src="assets/images/shapes/sec-title-s-1.png" alt="our Service" class="sec-title__img">
+                            Otros productos médicos
+                        </h3>
                     </div>
                 </div>
             </div>

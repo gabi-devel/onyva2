@@ -112,6 +112,6 @@
     <script>
         AOS.init();
     </script>
-    <?php include('components/footer.php'); ?>
+    <?php include('components/footer.html'); ?>
 </body>
 </html>

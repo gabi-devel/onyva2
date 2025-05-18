@@ -1,8 +1,15 @@
 <?php
 include('components/head.html');
 ?>
+<style>
+    .contact-one__content, .laboix-btn {
+        background: #0c9c54;
+    }
+</style>
 
-
+<div class="preloader" style="display: none;">
+    <div class="preloader__image" style="background-image: url(assets/images/logo-onyva.png);"></div>
+</div>
 <div class="page-wrapper">
     <?php include('components/navbar.php'); ?>
 
@@ -14,7 +21,7 @@ include('components/head.html');
                             <ul class="list-unstyled contact-one__info">
                                 <li class="contact-one__info__item">
                                     <div class="contact-one__info__icon">
-                                        <i class="icon-telephone-call-1"></i>
+                                        <i class="bi bi-telephone-fill"></i>
                                     </div>
                                     <div class="contact-one__info__content">
                                         <p class="contact-one__info__text">Teléfono</p>
@@ -23,7 +30,8 @@ include('components/head.html');
                                 </li>
                                 <li class="contact-one__info__item">
                                     <div class="contact-one__info__icon">
-                                        <i class="icon-email"></i>
+                                        <!-- <i class="icon-email"></i> -->
+                                        <i class="bi bi-envelope-fill"></i>
                                     </div>
                                     <div class="contact-one__info__content">
                                         <p class="contact-one__info__text">Email</p>
@@ -32,7 +40,7 @@ include('components/head.html');
                                 </li>
                                 <li class="contact-one__info__item">
                                     <div class="contact-one__info__icon">
-                                        <i class="icon-pin"></i>
+                                        <i class="bi bi-geo-alt-fill"></i>
                                     </div><!-- /.contact-one__info__icon -->
                                     <div class="contact-one__info__content">
                                         <p class="contact-one__info__text">Visitanos</p> <!-- /.contact-one__info__text -->
@@ -66,7 +74,7 @@ include('components/head.html');
                             <div class="contact-one__top">
                                 <div class="sec-title wow fadeInUp animated" data-wow-duration="700ms" style="visibility: visible; animation-duration: 700ms; animation-name: fadeInUp;">
                                     <h6 class="sec-title__tagline">Contactanos<img src="assets/images/shapes/aver2-96x96.png" width="30" alt="Contact with  Us" class="sec-title__img"></h6><!-- /.sec-title__tagline -->
-                                    <h3 class="sec-title__title">Complete este breve formulario y nos pondremos en contacto con Ud. a la brevedad</h3><!-- /.sec-title__title -->
+                                    <h3 class="sec-title__title"><!-- Complete este breve formulario y n -->Nos pondremos en contacto con Ud. a la brevedad</h3><!-- /.sec-title__title -->
                                 </div><!-- /.sec-title -->
                             </div><!-- /.contact-one__top -->
                             <form class="contact-one__form contact-form-validated form-one background-base wow fadeInUp animated" data-wow-duration="1500ms" action="inc/sendemail.php" novalidate="novalidate" style="visibility: visible; animation-duration: 1500ms; animation-name: fadeInUp;">

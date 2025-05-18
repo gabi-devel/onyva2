@@ -3,13 +3,27 @@ include('components/head.html'); ?>
 <body>
         <?php include 'components/navbar.php'; ?>
 
-        <div class="mt-5">
+        <style>
+        .bannerOxus::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 125px;
+            width: 100%;
+            z-index: 1;
+            height: 451px;
+            /* background: rgba(var(--laboix-base-rgb, 2, 25, 54), 0.3); */
+        }
+        </style>
 
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="titulo">Oxígeno Medicinal</h1>
-                </div>
+            <div class="col-12 text-center bannerOxus">
+                <img src="assets/images/banner_oxus.jpg" width=100% alt="oxus"></img>
             </div>
+            <!-- <div class="col-12 text-center mt-4 mb-4">
+                <h1 class="titulo">RAK-U06M2E</h1>
+                <h2 class="subtitulo">Oxus</h2>
+                <h3 class="subtitulo">Oxígeno Medicinal</h3>    
+            </div> -->
             <div class="row mx-4">
                 <div class="mb-4 espacio secciones" data-aos="fade-left" data-aos-duration="1000" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0"><!-- secciones col-10 -->
                     <div class="seccion pt-4">
@@ -31,7 +45,6 @@ include('components/head.html'); ?>
                     </div>
                 </div>
             </div>
-        </div>
     
         <script>
         const encabezados = document.querySelectorAll('.contenedor .encabezado');
