@@ -19,37 +19,34 @@ $size_our_products = "60";
                         <a class="topbar-one__info__item__email" href="mailto:ventas@onyva.com.ar">
                         <?php include('assets/iconos/envelope_fill.php'); ?> ventas@onyva.com.ar</a>
                     </li>
+                    <li class="topbar-one__info__item">
+                        <i class="icon-email topbar-one__info__icon"></i>
+                        <a class="topbar-one__info__item__telephone" style="color:#97A5B7;">
+                        <?php include('assets/iconos/telephone-fill.php'); ?> +54 11 51466977</a>
+                    </li>
                 </ul><!-- /.list-unstyled topbar-one__info -->
                 
                 <div class="clock-navbar">
-                    <!-- <span> -->
-                        
-                    <?php include('assets/iconos/clock_fill.php'); ?>
-                    <!-- </span> -->
-                        
+                    <div class="topbar-one__social uno__social">
+                        <a href="https://twitter.com">
+                            <?php include('assets/iconos/twitter.html'); ?><span class="sr-only">Twitter</span> 
+                        </a>
+                        <a href="https://facebook.com"> 
+                            <?php include('assets/iconos/facebook.html'); ?> <span class="sr-only">Facebook</span> 
+                        </a>
+                        <a href="#"> 
+                            <?php include('assets/iconos/tiktok.html'); ?> <span class="sr-only">Tik tok</span>
+                        </a>
+                        <a href="https://instagram.com"> 
+                            <?php include('assets/iconos/instagram.html'); ?> <span class="sr-only">Instagram</span>
+                        </a>
+                    </div>
+                    <!-- <?php include('assets/iconos/clock_fill.php'); ?>
                     <p class="topbar-one__text">
                         <i class="icon-clock1 topbar-one__right__icon"></i>
                         <span>Lunes a Viernes 9 a 18Hs</span>
-                    </p>   
+                    </p>    -->
                 </div> 
-                
-                <div class="recuadro-derecho fila1">
-                
-                        <div class="topbar-one__social uno__social">
-                            <a href="https://twitter.com">
-                                <?php include('assets/iconos/twitter.html'); ?><span class="sr-only">Twitter</span> 
-                            </a>
-                            <a href="https://facebook.com"> 
-                                <?php include('assets/iconos/facebook.html'); ?> <span class="sr-only">Facebook</span> 
-                            </a>
-                            <a href="#"> 
-                                <?php include('assets/iconos/tiktok.html'); ?> <span class="sr-only">Tik tok</span>
-                            </a>
-                            <a href="https://instagram.com"> 
-                                <?php include('assets/iconos/instagram.html'); ?> <span class="sr-only">Instagram</span>
-                            </a>
-                        </div>
-                </div>
             </div><!-- /.topbar-one__inner -->
         </div><!-- /.container-fluid -->
     </div>
@@ -72,7 +69,7 @@ $size_our_products = "60";
                         <li class="dropdown">
                             <a href="#">Productos Médicos de Diagnóstico</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Proteínas</a></li>
+                                <li><a href="./proteinas.php">Proteínas</a></li>
                                 <li><a href="#">InmunoDeficiencias</a></li>
                                 <li><a href="#">Microbiología</a></li>
                                 <li><a href="#">Biología Molecular</a></li>
@@ -87,11 +84,7 @@ $size_our_products = "60";
                             <ul class="sub-menu">
                                 <li><a href="./comfort-in.php">Sistema de Inyección sin aguja</a></li>
                                 <li><a href="#">Rayos X Portátil</a></li><!-- ./rayosxportatil.php -->
-                                <li class="dropdown"><a href="./oxus.php">Oxígeno medicinal</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="./oxus.php">Oxus</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="./oxus.php">Oxígeno medicinal: Oxus</a></li>
                             </ul>
                         </li>
 
@@ -120,9 +113,9 @@ $size_our_products = "60";
                                 </li>
                             </ul>
                         </li>
-                        <!-- <li>
+                        <li>
                             <a href="#">Capacitación</a>
-                        </li> -->
+                        </li>
                         <li>
                             <a href="./contacto.php">Contacto</a>
                         </li><!--  -->
@@ -142,17 +135,7 @@ $size_our_products = "60";
                     </div> -->
 
                 </div>
-                <div class="recuadro-derecho fila2">
-                    <a href="tel:+92-3800-8060" class="main-header__right__llamar">
-                        <div class="main-header__right__icon">
-                            <?php include('assets/iconos/telephone-fill.php'); ?>
-                        </div>
-                        <div class="main-header__right__content">
-                            <span class="main-header__right__content__text">Contactanos</span>
-                            <h6 class="main-header__right__content__number">+54 11 51466977</h6>
-                        </div>
-                    </a>
-                </div>
+                
             </div><!-- /.main-header__inner -->
         </div><!-- /.container-fluid -->
     </header>

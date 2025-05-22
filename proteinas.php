@@ -3,42 +3,38 @@ include('components/head.html');
 
 /* Info de las cards en el archivo cards_data.php */ 
 include('./components/cards_data.php');
-
-$color_icon_navbar = '#0ebd66';
-$color_icon_our_products = '#fff';
-$size_our_products = "60"; 
 ?>
 
 <div class="page-wrapper">
     <?php include('components/navbar.php'); ?>
     
     <!-- cards -->
-    <section class="service-page service-page--one">
+    <section class="service-page--one py-5">
         <div class="service-page__bg" style="background-image: url(assets/images/shapes/service-shape-1-1.png);"></div>
-        <div class="container">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-12">
                     <div class="sec-title text-center wow fadeInUp" data-wow-duration='1500ms'>
-                        <h6 class="sec-title__tagline"><img src="assets/images/shapes/sec-title-s-1.png" alt="our Service" class="sec-title__img">
-                            Otros productos med
-                        </h6>
-                        <h3 class="sec-title__title">Sistema de <br> Inyec s a</h3>
+                        <h3 class="sec-title__title"><img src="assets/images/shapes/sec-title-s-1.png" alt="our Service" class="sec-title__img">
+                            TODOS SON PUTOS
+                        </h3>
                     </div>
                 </div>
             </div>
             <div class="row gutter-y-30">
                 <?php 
-                $nombre_variable_de_cards = 'sist_inyec_s_a'; // Poné un nombre entre comillas que haga referencia esta página
+                // Nombre entre comillas igual que el de cards_data.php
+                $all_cards = 'otros_prod_med'; 
 
                 $delays = ['400ms', '600ms', '800ms'];
                 $index = 0;
-                foreach ($$nombre_variable_de_cards as &$card) {
+                foreach ($$all_cards as &$card) {
                     $card['delay'] = $delays[$index % 3];
                     $index++;
                 }
                 unset($card);
 
-                foreach ($$nombre_variable_de_cards as $card): 
+                foreach ($$all_cards as $card): 
                 ?>
                     <div class="col-md-6 col-lg-4">
                         <div class="service-card wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='<?= $card['delay'] ?>'>

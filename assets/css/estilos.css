@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    margin-right: 276px;
     padding: 0 23px;
   }
   .topbar-one__info {
@@ -257,7 +256,7 @@
     display: flex;
     /* align-items: stretch; */ /* Para que ambos bloques crezcan igual */
     height: 75px;
-    width: calc(100% - 267px);
+    width: 91%;
   }
   
   /* Ancho máximo */
