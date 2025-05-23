@@ -15,7 +15,7 @@ include('./components/cards_data.php');
                 <div class="col-12">
                     <div class="sec-title text-center wow fadeInUp" data-wow-duration='1500ms'>
                         <h3 class="sec-title__title"><img src="assets/images/shapes/sec-title-s-1.png" alt="our Service" class="sec-title__img">
-                            Proteínas
+                            inmunodeficiencias
                         </h3>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ include('./components/cards_data.php');
             <div class="row gutter-y-30">
                 <?php 
                 // Nombre entre comillas igual que el de cards_data.php
-                $all_cards = 'proteinas'; 
+                $all_cards = 'inmunodeficiencias'; 
 
                 $delays = ['400ms', '600ms', '800ms'];
                 $index = 0;
